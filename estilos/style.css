@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(153, 163, 66);
+    
+}
+header .logo{
+    margin: 0;
+    padding: 25px 25px;
+    font-weight: bold;
+    color: white;
+    font-size: 1.6em;
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px;
+    padding-left: 570px;
+}
+header a{
+    padding: 10px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color:white;
+    align-items: center;
+}
+header a:hover{
+    color:rgb(223, 215, 132);
+    background-color: rgb(89, 98, 13);
+}
+
+main img{
+    display: flex;
+    width: 20em;
+    padding: 50px 500px;
+}
+main{
+    background-color: rgb(253, 247, 247);
+    background-image: url("img/fondo.jpg");
+}
+main h1{
+    text-align: center;
+    align-items: center;
+    padding-bottom: 100px;
+    color: rgb(89, 98, 13);
+    font-size: 30px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+
+}
